@@ -1,0 +1,38 @@
+{
+    "name": "dracula-flat",
+    "displayName": "Dracula Flat",
+    "description": "A dark theme for Visual Studio Code inspired by the Dracula color palette, with a flat design for a modern and clean look.",
+    "publisher": "nguyenngocsang",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "package": "vsce package -o dracula.vsix",
+        "prepublish": "npm run build",
+        "publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nnsng/dracula-flat.git"
+    },
+    "engines": {
+        "vscode": "^1.96.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula Flat",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dracula-flat.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.2.1",
+        "js-yaml": "^4.1.0"
+    }
+}
