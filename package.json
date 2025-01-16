@@ -3,7 +3,7 @@
     "displayName": "Dracula Flat",
     "description": "A dark theme for Visual Studio Code inspired by the Dracula color palette, with a flat design for a modern and clean look.",
     "publisher": "nguyenngocsang",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
