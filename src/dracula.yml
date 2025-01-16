@@ -184,7 +184,7 @@ colors:
   editor.background: *BG
   editorLineNumber.foreground: *COMMENT
   editorLineNumber.activeForeground: !alpha [ *COLOR7, 90 ]
-  editorCursor.foreground: !alpha [ *COLOR7, 90 ]
+  editorCursor.foreground: *COLOR7
 
   editor.selectionBackground: *SELECTION                                        # Color of the editor selection
   editor.selectionHighlightBackground: *BGLighter                               # Color for regions with the same content as the selection
